@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Alura.ListaLeitura.App
+namespace Alura.ListaLeitura.App.Logica
 {
     public class CadastroLogica
     {
