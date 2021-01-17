@@ -5483,11 +5483,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desenv\\ALURA\\Alura.ListaLeitura\\WebApp.NetCore\\WebApp.NetCore.csproj",
+      "projectUniqueName": "D:\\Desenv\\ALURA\\Alura.ListaLeitura\\WebApp.NetCore\\WebApp.NetCore\\WebApp.NetCore.csproj",
       "projectName": "WebApp.NetCore",
-      "projectPath": "D:\\Desenv\\ALURA\\Alura.ListaLeitura\\WebApp.NetCore\\WebApp.NetCore.csproj",
+      "projectPath": "D:\\Desenv\\ALURA\\Alura.ListaLeitura\\WebApp.NetCore\\WebApp.NetCore\\WebApp.NetCore.csproj",
       "packagesPath": "C:\\Users\\Web-Pc\\.nuget\\packages\\",
-      "outputPath": "D:\\Desenv\\ALURA\\Alura.ListaLeitura\\WebApp.NetCore\\obj\\",
+      "outputPath": "D:\\Desenv\\ALURA\\Alura.ListaLeitura\\WebApp.NetCore\\WebApp.NetCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Web-Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",

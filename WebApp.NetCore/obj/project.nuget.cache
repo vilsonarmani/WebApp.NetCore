@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ToBZMXZDKjhnBGR1T/JzHBcF7UTBbyJc9mN3cN+6hgwUxWPVzZyUj3dfW8m5mrnPxkgh3kyBbSIipDWLgiFKyA==",
+  "dgSpecHash": "/z+1App+r1cmCLOQhJHbOiWWsJgwh2LTN9MjbleMIefZrwhycJSzTqcL1nFj+ftORiSOUn5PI4UVpp/nLB2Clw==",
   "success": true,
-  "projectFilePath": "D:\\Desenv\\ALURA\\Alura.ListaLeitura\\WebApp.NetCore\\WebApp.NetCore.csproj",
+  "projectFilePath": "D:\\Desenv\\ALURA\\Alura.ListaLeitura\\WebApp.NetCore\\WebApp.NetCore\\WebApp.NetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Web-Pc\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\Web-Pc\\.nuget\\packages\\microsoft.aspnetcore\\2.0.1\\microsoft.aspnetcore.2.0.1.nupkg.sha512",

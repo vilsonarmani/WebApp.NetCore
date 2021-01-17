@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Alura.ListaLeitura.App
+namespace Alura.ListaLeitura.App.Logica
 {
     public class LivrosLogica
     {      
