@@ -28,7 +28,7 @@ D:\Desenv\ALURA\Alura.ListaLeitura\WebApp.NetCore\WebApp.NetCore\bin\Debug\netco
 D:\Desenv\ALURA\Alura.ListaLeitura\WebApp.NetCore\WebApp.NetCore\obj\Debug\netcoreapp2.0\WebApp.NetCore.csprojAssemblyReference.cache
 D:\Desenv\ALURA\Alura.ListaLeitura\WebApp.NetCore\WebApp.NetCore\obj\Debug\netcoreapp2.0\WebApp.NetCore.AssemblyInfoInputs.cache
 D:\Desenv\ALURA\Alura.ListaLeitura\WebApp.NetCore\WebApp.NetCore\obj\Debug\netcoreapp2.0\WebApp.NetCore.AssemblyInfo.cs
-D:\Desenv\ALURA\Alura.ListaLeitura\WebApp.NetCore\WebApp.NetCore\obj\Debug\netcoreapp2.0\WebApp.NetCore.csproj.CoreCompileInputs.cache
 D:\Desenv\ALURA\Alura.ListaLeitura\WebApp.NetCore\WebApp.NetCore\obj\Debug\netcoreapp2.0\WebApp.NetCore.dll
 D:\Desenv\ALURA\Alura.ListaLeitura\WebApp.NetCore\WebApp.NetCore\obj\Debug\netcoreapp2.0\WebApp.NetCore.pdb
 D:\Desenv\ALURA\Alura.ListaLeitura\WebApp.NetCore\WebApp.NetCore\obj\Debug\netcoreapp2.0\WebApp.NetCore.genruntimeconfig.cache
+D:\Desenv\ALURA\Alura.ListaLeitura\WebApp.NetCore\WebApp.NetCore\obj\Debug\netcoreapp2.0\WebApp.NetCore.csproj.CoreCompileInputs.cache
