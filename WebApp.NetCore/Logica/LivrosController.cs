@@ -2,29 +2,24 @@
 using Alura.ListaLeitura.App.Negocio;
 using Alura.ListaLeitura.App.Repositorio;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Routing;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Alura.ListaLeitura.App.Logica
 {
-    public class LivrosLogica
+    public class LivrosController
     {      
 
-        public static Task ExibeDetalhes(HttpContext context)
+        public string Detalhes(int id)
         {
-            //routcontraints: se o id for um inteiro
-
-            int id = Convert.ToInt32(context.GetRouteValue("id"));
-
             var repo = new LivroRepositorioCSV();
             var livro = repo.Todos.First(l => l.Id == id);
-            return context.Response.WriteAsync(livro.Detalhes());
+
+            return livro.Detalhes();
         }
 
-        public static Task LivrosPraLer(HttpContext context)
+        public static Task ParaLer(HttpContext context)
         {
             var _repo = new LivroRepositorioCSV();
             //var conteudoArquivo = HTMLUtils.CarregaArquivoHTML("para-ler");
@@ -34,7 +29,7 @@ namespace Alura.ListaLeitura.App.Logica
             //return context.Response.WriteAsync(_repo.ParaLer.ToString());
         }
 
-        public static Task LivrosLendo(HttpContext context)
+        public static Task Lendo(HttpContext context)
         {
             var _repo = new LivroRepositorioCSV();
             // var conteudoArquivo = HTMLUtils.CarregaArquivoHTML("lendo");            
@@ -42,7 +37,7 @@ namespace Alura.ListaLeitura.App.Logica
             return context.Response.WriteAsync(text: CarregaLivrosHTML(_repo.Lendo.Livros, "#LISTADELIVROS#", HTMLUtils.CarregaArquivoHTML("lendo")));
         }        
 
-        public static Task LivrosLidos(HttpContext context)
+        public static Task Lidos(HttpContext context)
         {
             var _repo = new LivroRepositorioCSV();
             //var conteudoArquivo = HTMLUtils.CarregaArquivoHTML("lidos");
@@ -73,6 +68,10 @@ namespace Alura.ListaLeitura.App.Logica
             }
 
             return conteudoHTML;
+        }
+        public string Teste()
+        {
+            return "Nova funcionalidade implementada!";
         }
     }
 }
