@@ -24,8 +24,8 @@ namespace Alura.ListaLeitura.App.Negocio
         public override string ToString()
         {
             var linhas = new StringBuilder();
-            linhas.AppendLine(Titulo);
-            linhas.AppendLine("=========");
+            //linhas.AppendLine(Titulo);
+            //linhas.AppendLine("=========");
             foreach (var livro in Livros)
             {
                 linhas.AppendLine(livro.ToString());

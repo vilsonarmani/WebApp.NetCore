@@ -8,14 +8,14 @@ namespace Alura.ListaLeitura.App
         /*INJETANDO O SERVIÇO DE ROTEAMENTO*/
         public void ConfigureServices(IServiceCollection services)
         {
-            //injetando serviço de roteamento
-            services.AddRouting();
-            services.AddMvc();//adicionar o MVC
+            services.AddMvc();
         }
 
         /* MAPEAMENTO DAS ROTAS*/
         public void Configure(IApplicationBuilder app)
         {
+		    ///não utilizar em produção pois exibe o stack trace
+            app.UseDeveloperExceptionPage();
             app.UseMvcWithDefaultRoute();
         }
     
